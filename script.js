@@ -14,7 +14,6 @@ function clearDisplay() {
   displayValue = '';
   document.getElementById('calculator-display').value = displayValue;
 }
-
 function calculate() {
   try {
     let operator = '';
